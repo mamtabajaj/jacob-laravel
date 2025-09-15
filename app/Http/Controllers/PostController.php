@@ -9,7 +9,7 @@ class PostController extends Controller
 {
     public function index()
     {
-        echo "post testing";
+        echo "postttsib";
         die();
         $posts = Post::all();
         return view('posts.index', compact('posts'));
