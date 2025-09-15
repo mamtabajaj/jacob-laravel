@@ -9,6 +9,7 @@ class PostController extends Controller
 {
     public function index()
     {
+        echo "post";
         $posts = Post::all();
         return view('posts.index', compact('posts'));
     }
